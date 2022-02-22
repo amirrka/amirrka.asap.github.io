@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="js/script.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" type="image/png" href="photo.png" />
+<link rel="stylesheet" href="styleWallpaper.css">
+<title>ASAP</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="image fade">
+            <img src="img/1.jpg" width="50%">
+        </div>
+        <div class="image fade">
+            <img src="img/2.jpg" width="50%">
+        </div>
+        <div class="image fade">
+            <img src="img/3.jpg" width="50%">
+        </div>
+        <div class="image fade">
+            <img src="img/4.jpg" width="50%">
+        </div>
+        
+
+        <a id="prev" onclick="show_slide(-1)">&#10094;</a>
+        <a id="next" onclick="show_slide(1)">&#10095;</a>
+        
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+
+    <script src="scriptWallpaper.js"></script>
+</body>
+</html>
